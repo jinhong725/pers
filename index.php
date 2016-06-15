@@ -544,6 +544,21 @@
                     </div>
                 </div>
 
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#wm_bitesizeguru" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/web+mobile/bitesizeguru/bitesizeguru_preview.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Bitesize Guru</h4>
+                        <p class="text-muted">Ruby, iOS, notification</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </section>
@@ -1931,6 +1946,70 @@
                                 <li>Date: OCT 2015</li>
                                 <li>Client: Bill</li>
                                 <li>Category: Android&iOS, SMS/Video calling</li>
+                            </ul>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- bitesizeguru portfolio modal -->
+    <div class="portfolio-modal modal fade" id="wm_bitesizeguru" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Bitesize Guru</h2>
+                            <p class="item-intro text-muted">Ruby on rails and iOS notification app.</p>
+
+                            <div class="row">
+                                <img class="img-responsive img-centered col-lg-12" src="img/portfolio/web+mobile/bitesizeguru/web/backend.png" alt="">                           
+                            </div>
+
+                            <div class="row">
+                                <img class="img-responsive img-centered col-lg-12" src="img/portfolio/web+mobile/bitesizeguru/web/frontend.png" alt="">
+                            </div>
+
+                            <div class="row">
+                                <img class="img-responsive img-centered col-lg-3" src="img/portfolio/web+mobile/bitesizeguru/mobile/1.png" alt="">
+                                <img class="img-responsive img-centered col-lg-3" src="img/portfolio/web+mobile/bitesizeguru/mobile/2.png" alt="">
+                                <img class="img-responsive img-centered col-lg-3" src="img/portfolio/web+mobile/bitesizeguru/mobile/3.png" alt="">
+                                <img class="img-responsive img-centered col-lg-3" src="img/portfolio/web+mobile/bitesizeguru/mobile/4.png" alt="">
+                            </div>
+
+                            <h5>Description</h5>
+                            <article>
+                                This is web + mobile platform for someone who needs samll knowledge sometimes.
+                                The backend services the snippet by notification automatically according to the booking time.
+                                The backend is hosted on digital ocean.
+                            </article>
+                            <h5>Technology</h5>
+                            <article>
+                                ruby on rails, resque, grocer, notification, RESTful API
+                            </article>
+
+                            <h5>Links</h5>
+                            <a target="_blank" href="https://itunes.apple.com/ca/app/bitesize-guru/id1091439005?mt=8&ign-mpt=uo%3D4">
+                                <img src="img/appstore.png">
+                            </a>
+                            <a target="_blank" href="http://bitesize.guru/">
+                                <img src="img/web.png">
+                            </a>                            
+                            
+                            <ul class="list-inline">
+                                <li>Date: May 2016</li>
+                                <li>Client: Raphael</li>
+                                <li>Category: iOS, Ruby on rails, notification</li>
                             </ul>
                             <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                         </div>
